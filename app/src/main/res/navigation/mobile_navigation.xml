@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.royalfriends.news.ui.BBC.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.royalfriends.news.ui.AlJazeera.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.royalfriends.news.ui.CNN.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/AlArabiya"
+        android:name="com.royalfriends.news.fragment.AlArabiya"
+        android:label="@string/al_arabiya"
+        tools:layout="@layout/fragment_al_arabiya" />
+    <fragment
+        android:id="@+id/EuroNews"
+        android:name="com.royalfriends.news.fragment.EuroNews"
+        android:label="@string/euro_news"
+        tools:layout="@layout/fragment_euro_news" />
+    <fragment
+        android:id="@+id/FoxNews"
+        android:name="com.royalfriends.news.fragment.FoxNews"
+        android:label="@string/fox_news"
+        tools:layout="@layout/fragment_fox_news" />
+    <fragment
+        android:id="@+id/GeoNews"
+        android:name="com.royalfriends.news.fragment.GeoNews"
+        android:label="@string/geo_news"
+        tools:layout="@layout/fragment_geo_news" />
+    <fragment
+        android:id="@+id/MSNBCNews"
+        android:name="com.royalfriends.news.fragment.MSNBCNews"
+        android:label="@string/msnbc_news"
+        tools:layout="@layout/fragment_m_s_n_b_c_news" />
+    <fragment
+        android:id="@+id/NDTVNews"
+        android:name="com.royalfriends.news.fragment.NdtvNews"
+        android:label="@string/ndtv_news"
+        tools:layout="@layout/fragment_ndtv_news" />
+    <fragment
+        android:id="@+id/SkyNews"
+        android:name="com.royalfriends.news.fragment.SkyNews"
+        android:label="@string/sky_news"
+        tools:layout="@layout/fragment_sky_news" />
+    <fragment
+        android:id="@+id/AajTakNews"
+        android:name="com.royalfriends.news.fragment.AajTak"
+        android:label="@string/aaj_tak"
+        tools:layout="@layout/fragment_aaj_tak" />
+    <fragment
+        android:id="@+id/ABPNews"
+        android:name="com.royalfriends.news.fragment.ABPNews"
+        android:label="@string/abp_news"
+        tools:layout="@layout/fragment_a_b_p_news" />
+    <fragment
+        android:id="@+id/DDNews"
+        android:name="com.royalfriends.news.fragment.DDNews"
+        android:label="@string/dd_news"
+        tools:layout="@layout/fragment_d_d_news" />
+    <fragment
+        android:id="@+id/DNAIndiaNews"
+        android:name="com.royalfriends.news.fragment.DNAIndiaNews"
+        android:label="@string/dna_india"
+        tools:layout="@layout/fragment_d_n_a_india_news" />
+    <fragment
+        android:id="@+id/IBN7News"
+        android:name="com.royalfriends.news.fragment.IBN7News"
+        android:label="@string/ibn7"
+        tools:layout="@layout/fragment_i_b_n7_news" />
+    <fragment
+        android:id="@+id/IndiaTvNews"
+        android:name="com.royalfriends.news.fragment.IndiaTvNews"
+        android:label="@string/india_tv"
+        tools:layout="@layout/fragment_india_tv_news" />
+    <fragment
+        android:id="@+id/News24"
+        android:name="com.royalfriends.news.fragment.News24"
+        android:label="@string/news_24"
+        tools:layout="@layout/fragment_news24" />
+    <fragment
+        android:id="@+id/RepublicTV"
+        android:name="com.royalfriends.news.fragment.RepublicTV"
+        android:label="@string/republic_tv"
+        tools:layout="@layout/fragment_republic_t_v" />
+    <fragment
+        android:id="@+id/ZeeNewsNews"
+        android:name="com.royalfriends.news.fragment.ZeeNewsNews"
+        android:label="@string/zee_news"
+        tools:layout="@layout/fragment_zee_news_news" />
+    <fragment
+        android:id="@+id/cnnIBM"
+        android:name="com.royalfriends.news.fragment.CnnIbm"
+        android:label="@string/cnn_ibm"
+        tools:layout="@layout/fragment_cnn_ibm" />
+    <fragment
+        android:id="@+id/zeeBusiness"
+        android:name="com.royalfriends.news.fragment.ZeeB"
+        android:label="@string/zee_business"
+        tools:layout="@layout/fragment_zee_b" />
+    <fragment
+        android:id="@+id/ndtvProfit"
+        android:name="com.royalfriends.news.fragment.NDTVProfit"
+        android:label="@string/ndtv_profit"
+        tools:layout="@layout/fragment_n_d_t_v_profit" />
+    <fragment
+        android:id="@+id/cnbcTv18"
+        android:name="com.royalfriends.news.fragment.CNBCTV18"
+        android:label="@string/cnbc_tv_18"
+        tools:layout="@layout/fragment_c_n_b_c_t_v18" />
+    <fragment
+        android:id="@+id/etNow"
+        android:name="com.royalfriends.news.fragment.ETNow"
+        android:label="@string/et_now"
+        tools:layout="@layout/fragment_e_t_now" />
+    <fragment
+        android:id="@+id/Espn"
+        android:name="com.royalfriends.news.fragment.ESPN"
+        android:label="@string/espn"
+        tools:layout="@layout/fragment_e_s_p_n" />
+    <fragment
+        android:id="@+id/FoxSports"
+        android:name="com.royalfriends.news.fragment.FoxSports"
+        android:label="@string/fox_sports"
+        tools:layout="@layout/fragment_fox_sports" />
+    <fragment
+        android:id="@+id/SkySports"
+        android:name="com.royalfriends.news.fragment.SKYSPORTS"
+        android:label="@string/sky_sports"
+        tools:layout="@layout/fragment_s_k_y_s_p_o_r_t_s" />
+    <fragment
+        android:id="@+id/Mlb"
+        android:name="com.royalfriends.news.fragment.MLB"
+        android:label="@string/mlb"
+        tools:layout="@layout/fragment_m_l_b" />
+    <fragment
+        android:id="@+id/Nba"
+        android:name="com.royalfriends.news.fragment.NBA"
+        android:label="@string/nba"
+        tools:layout="@layout/fragment_n_b_a" />
+
+</navigation>

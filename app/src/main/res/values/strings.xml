@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Daily News</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Daily News</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">BBC</string>
+    <string name="menu_gallery">Al Jazeera</string>
+    <string name="menu_slideshow">CNN</string>
+    <string name="by_royal_friends">By Royal Friends</string>
+    <string name="fox_news">Fox News</string>
+    <string name="msnbc_news">MSNBC News</string>
+    <string name="sky_news">Sky news</string>
+    <string name="euro_news">Euro news</string>
+    <string name="ndtv_news">NDTV News</string>
+    <string name="geo_news">Geo News</string>
+    <string name="al_arabiya">Al Arabiya</string>
+    <string name="top_10_news_channel">Top 10 News Channels In The World</string>
+    <string name="top_10_news_channel_in_india">Top 10 News Channels In India</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fox_news_frag">Fox News</string>
+    <string name="aaj_tak">Aaj Tak</string>
+    <string name="by_n_royal_friend">By \n Royal Friend</string>
+    <string name="dd_news">DD News</string>
+    <string name="dna_india">DNA India</string>
+    <string name="india_tv">India TV</string>
+    <string name="ibn7">IBN 7</string>
+    <string name="zee_news">Zee News</string>
+    <string name="abp_news">ABP News</string>
+    <string name="republic_tv">Republic TV</string>
+    <string name="news_24">News 24</string>
+    <string name="india_news">India News</string>
+    <string name="top_5_business_news_channel_in_india">Top 5 Business News Channels</string>
+    <string name="ndtv_profit">NDTV Profit</string>
+    <string name="cnbc_tv_18">CNBC TV-18</string>
+    <string name="et_now">ET Now</string>
+    <string name="zee_business">Zee Business</string>
+    <string name="cnn_ibm">CNN-IBM</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="royal_friends">Royal  Friends</string>
+    <string name="up_coming">Up Coming Sports News Channels</string>
+    <string name="espn">ESPN</string>
+    <string name="sky_sports">Sky Sports</string>
+    <string name="fox_sports">Fox Sports</string>
+    <string name="nba">NBA</string>
+    <string name="mlb">MLB</string>
+
+</resources>
